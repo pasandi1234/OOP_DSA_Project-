@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+  <display-name>Home Tutor Search and Booking System</display-name>
+
+  <!-- Welcome File List -->
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <!-- Servlet Mappings -->
+  <servlet>
+    <servlet-name>TutorRegistrationServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.TutorRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TutorRegistrationServlet</servlet-name>
+    <url-pattern>/register-tutor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TutorSearchServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.TutorSearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TutorSearchServlet</servlet-name>
+    <url-pattern>/search-tutors</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TutorUpdateServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.TutorUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TutorUpdateServlet</servlet-name>
+    <url-pattern>/update-tutor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TutorDeleteServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.TutorDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TutorDeleteServlet</servlet-name>
+    <url-pattern>/delete-tutor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewTutorServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.ViewTutorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewTutorServlet</servlet-name>
+    <url-pattern>/view-tutor</url-pattern>
+  </servlet-mapping>
+
+  <!-- Student Servlet Mappings -->
+  <servlet>
+    <servlet-name>StudentRegistrationServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.StudentRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentRegistrationServlet</servlet-name>
+    <url-pattern>/register-student</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>StudentProfileServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.StudentProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentProfileServlet</servlet-name>
+    <url-pattern>/view-student</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>StudentUpdateServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.StudentUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentUpdateServlet</servlet-name>
+    <url-pattern>/update-student</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>StudentDeleteServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.StudentDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentDeleteServlet</servlet-name>
+    <url-pattern>/delete-student</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>StudentSearchServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.StudentSearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentSearchServlet</servlet-name>
+    <url-pattern>/search-students</url-pattern>
+  </servlet-mapping>
+
+  <!-- Booking Servlet Mappings -->
+  <servlet>
+    <servlet-name>BookingCreationServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.BookingCreationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookingCreationServlet</servlet-name>
+    <url-pattern>/create-booking</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BookingViewServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.BookingViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookingViewServlet</servlet-name>
+    <url-pattern>/view-booking</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BookingUpdateServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.BookingUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookingUpdateServlet</servlet-name>
+    <url-pattern>/update-booking</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BookingDeleteServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.BookingDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookingDeleteServlet</servlet-name>
+    <url-pattern>/delete-booking</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BookingListServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.BookingListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookingListServlet</servlet-name>
+    <url-pattern>/booking-history</url-pattern>
+  </servlet-mapping>
+
+  <!-- Payment Servlet Mappings -->
+  <servlet>
+    <servlet-name>PaymentProcessingServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.PaymentProcessingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PaymentProcessingServlet</servlet-name>
+    <url-pattern>/process-payment</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PaymentViewServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.PaymentViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PaymentViewServlet</servlet-name>
+    <url-pattern>/view-payment</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PaymentUpdateServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.PaymentUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PaymentUpdateServlet</servlet-name>
+    <url-pattern>/update-payment</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PaymentDeleteServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.PaymentDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PaymentDeleteServlet</servlet-name>
+    <url-pattern>/delete-payment</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PaymentListServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.PaymentListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PaymentListServlet</servlet-name>
+    <url-pattern>/payment-history</url-pattern>
+  </servlet-mapping>
+
+  <!-- Review Servlet Mappings -->
+  <servlet>
+    <servlet-name>ReviewSubmissionServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.ReviewSubmissionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewSubmissionServlet</servlet-name>
+    <url-pattern>/submit-review</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ReviewViewServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.ReviewViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewViewServlet</servlet-name>
+    <url-pattern>/view-review</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ReviewUpdateServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.ReviewUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewUpdateServlet</servlet-name>
+    <url-pattern>/update-review</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ReviewDeleteServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.ReviewDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewDeleteServlet</servlet-name>
+    <url-pattern>/delete-review</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ReviewListServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.ReviewListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewListServlet</servlet-name>
+    <url-pattern>/review-list</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TutorReviewsServlet</servlet-name>
+    <servlet-class>com.hsbt.servlet.TutorReviewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TutorReviewsServlet</servlet-name>
+    <url-pattern>/tutor-reviews</url-pattern>
+  </servlet-mapping>
+</web-app>

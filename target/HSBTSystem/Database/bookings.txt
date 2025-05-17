@@ -1,0 +1,5 @@
+3|1|1|Mathematics|2025-05-05|14:00|16:00|50.0|Completed|Covered algebra basics|ONLINE|Google Meet|https://meet.google.com/abc-defg-hij|abc-defg-hij||0
+4|2|2|Chemistry|2025-05-10|15:00|17:00|70.0|Cancelled|Student cancelled due to illness|INPERSON|Student's Home|456 Oak Ave, Apt 7B|1|1|10.0
+5|5|1|Mathematics|2025-05-22|16:21|18:24|51.24999999999993|Pending|he he|INPERSON|Student's Home|no49/A,samarahena  rd,|1|1|340.0
+6|1|5|Chemistry|2025-05-14|16:47|19:51|3679.9999999999995|Confirmed||ONLINE|Zoom||||0
+7|1|1|Mathematics|2025-05-16|18:31|18:29|-0.833333333333286|Pending||ONLINE|Zoom||||0

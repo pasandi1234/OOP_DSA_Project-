@@ -1,0 +1,4 @@
+tutors=C:\Users\Venura\Desktop\CustomerDemo\HSBTSystem\src\main\webapp\Database/tutors.txt
+students=C:\Users\Venura\Desktop\CustomerDemo\HSBTSystem\src\main\webapp\Database/students.txt
+bookings=C:\Users\Venura\Desktop\CustomerDemo\HSBTSystem\src\main\webapp\Database/bookings.txt
+reviews=C:\Users\Venura\Desktop\CustomerDemo\HSBTSystem\src\main\webapp\Database/reviews.txt
