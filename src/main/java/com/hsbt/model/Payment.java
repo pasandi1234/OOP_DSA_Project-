@@ -11,10 +11,10 @@ public class Payment {
     private int studentId;
     private int tutorId;
     private double amount;
-    private String date; // Format: yyyy-MM-dd
-    private String status; // "Pending", "Completed", "Refunded", "Failed"
+    private String date; 
+    private String status; 
     private String transactionId;
-    private String paymentType; // "CARD", "BANK", "BASE"
+    private String paymentType; 
 
 
     public Payment() {
@@ -35,7 +35,7 @@ public class Payment {
         this.paymentType = "BASE";
     }
 
-    // Getters and Setters
+    
     public int getId() {
         return id;
     }
