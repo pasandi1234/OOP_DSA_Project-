@@ -1,16 +1,14 @@
 package com.hsbt.model;
 
 
-public class BankTransfer extends Payment {
+ public class BankTransfer extends Payment {
     private String bankName;
     private String accountName;
     private String referenceNumber;
     private boolean isInternational;
-    private String transferMethod; // e.g., "ACH", "Wire Transfer", "SWIFT"
+    private String transferMethod; 
 
-
-
-    public BankTransfer() {
+   public BankTransfer() {
         super();
         setPaymentType("BANK");
     }
@@ -98,7 +96,6 @@ public class BankTransfer extends Payment {
         String date = parts[5];
         String status = parts[6];
         String transactionId = parts[7];
-        
         String bankName = parts[9];
         String accountName = parts[10];
         String referenceNumber = parts[11];

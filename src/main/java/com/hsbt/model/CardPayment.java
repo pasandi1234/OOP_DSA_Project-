@@ -2,7 +2,7 @@ package com.hsbt.model;
 
 
 public class CardPayment extends Payment {
-    private String cardType; // e.g., "Visa", "Mastercard", "American Express"
+    private String cardType; 
     private String lastFourDigits;
     private String cardholderName;
     private String expiryDate;
@@ -79,7 +79,6 @@ public class CardPayment extends Payment {
         String date = parts[5];
         String status = parts[6];
         String transactionId = parts[7];
-        
         String cardType = parts[9];
         String lastFourDigits = parts[10];
         String cardholderName = parts[11];
