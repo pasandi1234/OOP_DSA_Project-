@@ -1,0 +1,4 @@
+1|Dinuli Ferdinando|dinuli@gmail.com|0712580320|320/A,Madiwela Road,Kotte|Accounting,Econ,ICT|Commerce Stream|Monday,Wednesday|Afternoon|1
+2|Upadya Diheli|diheliupadya@gmail.com|0752740250|123/B,Pagoda Road,Kelaniya|Physics,Chemistry,Combined Maths|Physical Science Stream|Tuesday,Thursday|Evening|1
+3|Dinethmi Perera|dperera@gmail.com|0717508302|278/A,Vihara Road,Kottawa|Accounting,Econ,ICT|Commerce Stream|Saturday,Sunday|Morning|1
+4|Kamal Fernando|kamal@gmail.com|0785420750|258/C,Isurupura,Malabe|Geography,History,ICT|Arts Stream|Monday,Tuesday,Wednesday,Thursday,Friday|Flexible|1
