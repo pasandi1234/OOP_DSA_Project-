@@ -1,6 +1,6 @@
 package com.hsbt.model;
 public class OnlineTutor extends Tutor {
-    private String platformPreference; // e.g., Zoom, Google Meet, Microsoft Teams
+    private String platformPreference; 
     private boolean hasWebcam;
     private boolean providesRecordings;
     private String timeZone;
@@ -53,8 +53,7 @@ public class OnlineTutor extends Tutor {
     @Override
     public String toFileString() {
         StringBuilder sb = new StringBuilder(super.toFileString());
-        // Replace the type indicator
-        sb.delete(sb.length() - 4, sb.length()); // Remove "BASE"
+        sb.delete(sb.length() - 4, sb.length()); 
         sb.append("ONLINE|");
         sb.append(platformPreference).append("|");
         sb.append(hasWebcam ? "1" : "0").append("|");
