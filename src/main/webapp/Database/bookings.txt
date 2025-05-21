@@ -1,0 +1,5 @@
+5|5|1|Mathematics|2025-05-22|16:21|18:24|51.24999999999993|Pending|he he|INPERSON|Student's Home|no49/A,samarahena  rd,|1|1|340.0
+8|5|3|English|2025-05-17|10:00|01:02|-251.06666666666666|Pending|gvhgvg|ONLINE|Zoom||||0
+9|2|1|Mathematics|2025-05-19|16:30|18:30|5000.0|Pending||ONLINE|Google Meet||||0
+11|1|2|Physics|2025-05-19|11:00|13:00|6000.0|Pending||ONLINE|Zoom||||0
+12|1|2|Physics|2025-05-19|20:00|22:00|6000.0|Pending||ONLINE|Zoom||||0
