@@ -1,0 +1,327 @@
+/**
+ * Dark mode styles for the Home Tutor Search and Booking System
+ * Yellow and black color scheme
+ */
+
+/* Dark mode base styles */
+html.dark-mode-html,
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #ffc107 !important; /* Yellow text */
+}
+
+/* Apply dark mode to all elements */
+.dark-mode * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Header styles */
+body.dark-mode header {
+    background-color: #000000;
+}
+
+body.dark-mode header h1,
+body.dark-mode header p {
+    color: #ffc107; /* Yellow */
+}
+
+/* Navigation styles */
+body.dark-mode nav {
+    background-color: #000000;
+}
+
+body.dark-mode nav a {
+    color: #ffc107 !important; /* Yellow */
+}
+
+body.dark-mode nav a:hover {
+    color: #ffeb3b !important; /* Lighter yellow */
+    text-decoration: underline;
+}
+
+/* Container and card styles */
+body.dark-mode .container .bg-white,
+body.dark-mode .bg-white,
+body.dark-mode .max-w-4xl,
+body.dark-mode .max-w-6xl,
+body.dark-mode .max-w-3xl,
+body.dark-mode .rounded-lg {
+    background-color: #000000 !important;
+    color: #ffc107 !important; /* Yellow text */
+    border: 1px solid #333333;
+}
+
+body.dark-mode .shadow-md,
+body.dark-mode .shadow-lg {
+    box-shadow: 0 4px 6px -1px rgba(255, 193, 7, 0.2), 0 2px 4px -1px rgba(255, 193, 7, 0.1);
+}
+
+/* Text colors */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode div,
+body.dark-mode label,
+body.dark-mode .text-gray-700,
+body.dark-mode .text-gray-800,
+body.dark-mode .text-gray-900,
+body.dark-mode .font-bold,
+body.dark-mode .font-medium,
+body.dark-mode .font-semibold {
+    color: #ffc107 !important; /* Yellow text */
+}
+
+body.dark-mode .text-gray-500,
+body.dark-mode .text-gray-600 {
+    color: #ffdb70 !important; /* Lighter yellow */
+}
+
+/* Form elements */
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+    background-color: #000000 !important;
+    border: 1px solid #ffc107 !important;
+    color: #ffc107 !important;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+    color: #ffdb70 !important;
+    opacity: 0.7;
+}
+
+body.dark-mode input:focus,
+body.dark-mode textarea:focus,
+body.dark-mode select:focus {
+    border-color: #ffeb3b !important;
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.25);
+    outline: none;
+}
+
+/* Buttons */
+body.dark-mode button,
+body.dark-mode .btn,
+body.dark-mode a.bg-blue-600,
+body.dark-mode a.bg-green-600,
+body.dark-mode a.bg-red-600,
+body.dark-mode a.bg-yellow-600,
+body.dark-mode a.bg-purple-600,
+body.dark-mode a.bg-gray-600,
+body.dark-mode .bg-blue-600 {
+    background-color: #000000 !important;
+    border: 2px solid #ffc107 !important;
+    color: #ffc107 !important;
+}
+
+body.dark-mode button:hover,
+body.dark-mode .btn:hover,
+body.dark-mode a.bg-blue-600:hover,
+body.dark-mode a.bg-green-600:hover,
+body.dark-mode a.bg-red-600:hover,
+body.dark-mode a.bg-yellow-600:hover,
+body.dark-mode a.bg-purple-600:hover,
+body.dark-mode a.bg-gray-600:hover,
+body.dark-mode .bg-blue-700,
+body.dark-mode .hover\:bg-blue-700:hover {
+    background-color: #ffc107 !important;
+    color: #000000 !important;
+}
+
+/* Specific button colors for different actions */
+body.dark-mode .bg-green-600,
+body.dark-mode .bg-green-700,
+body.dark-mode .hover\:bg-green-700:hover {
+    border-color: #8bc34a !important;
+}
+
+body.dark-mode .bg-red-600,
+body.dark-mode .bg-red-700,
+body.dark-mode .hover\:bg-red-700:hover {
+    border-color: #f44336 !important;
+}
+
+body.dark-mode .bg-gray-600,
+body.dark-mode .bg-gray-700,
+body.dark-mode .hover\:bg-gray-700:hover {
+    border-color: #9e9e9e !important;
+}
+
+body.dark-mode .bg-yellow-500,
+body.dark-mode .bg-yellow-600,
+body.dark-mode .hover\:bg-yellow-600:hover {
+    border-color: #ff9800 !important;
+}
+
+body.dark-mode .bg-purple-600,
+body.dark-mode .hover\:bg-purple-700:hover {
+    border-color: #9c27b0 !important;
+}
+
+/* Table styles */
+body.dark-mode table {
+    color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+
+body.dark-mode table thead {
+    background-color: #000000 !important;
+    border-bottom: 2px solid #ffc107 !important;
+}
+
+body.dark-mode table thead th {
+    color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+
+body.dark-mode table tbody tr {
+    background-color: #000000 !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+body.dark-mode table tbody tr:nth-child(even) {
+    background-color: #0a0a0a !important;
+}
+
+body.dark-mode table tbody td {
+    color: #ffc107 !important;
+    border-color: #333333 !important;
+}
+
+/* Footer styles */
+body.dark-mode footer {
+    background-color: #000000 !important;
+    color: #ffc107 !important; /* Yellow */
+    border-top: 1px solid #333333;
+}
+
+body.dark-mode footer a {
+    color: #ffc107 !important;
+}
+
+body.dark-mode footer a:hover {
+    color: #ffeb3b !important;
+    text-decoration: underline;
+}
+
+/* Star rating */
+body.dark-mode .text-yellow-400 {
+    color: #ffc107 !important; /* Yellow */
+}
+
+/* Alert boxes */
+body.dark-mode .bg-green-100 {
+    background-color: #000000 !important;
+    border: 1px solid #8bc34a !important;
+    color: #8bc34a !important;
+}
+
+body.dark-mode .bg-red-100 {
+    background-color: #000000 !important;
+    border: 1px solid #f44336 !important;
+    color: #f44336 !important;
+}
+
+body.dark-mode .bg-yellow-100 {
+    background-color: #000000 !important;
+    border: 1px solid #ff9800 !important;
+    color: #ff9800 !important;
+}
+
+body.dark-mode .bg-blue-50 {
+    background-color: #000000 !important;
+    border: 1px solid #ffc107 !important;
+    color: #ffc107 !important;
+}
+
+/* Links */
+body.dark-mode a,
+body.dark-mode a.text-blue-600,
+body.dark-mode a.text-blue-300,
+body.dark-mode a.text-red-600,
+body.dark-mode a.text-green-600 {
+    color: #ffc107 !important; /* Yellow */
+    text-decoration: none;
+}
+
+body.dark-mode a:hover,
+body.dark-mode a.hover\:text-blue-900:hover,
+body.dark-mode a.text-blue-300:hover,
+body.dark-mode a.text-red-600:hover,
+body.dark-mode a.text-green-600:hover {
+    color: #ffeb3b !important; /* Lighter yellow */
+    text-decoration: underline;
+}
+
+/* Dark mode toggle button */
+#darkModeToggle {
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode #darkModeToggle {
+    background-color: #000000;
+    color: #ffc107;
+    border: 2px solid #ffc107;
+}
+
+/* Floating inquiry button */
+body.dark-mode .fixed.bottom-6.right-6 button {
+    background-color: #000000 !important;
+    color: #ffc107 !important;
+    border: 2px solid #ffc107 !important;
+}
+
+body.dark-mode .fixed.bottom-6.right-6 button:hover {
+    background-color: #ffc107 !important;
+    color: #000000 !important;
+}
+
+body.dark-mode .fixed.bottom-6.right-6 .bg-white {
+    background-color: #000000 !important;
+    border: 1px solid #ffc107 !important;
+}
+
+body.dark-mode .fixed.bottom-6.right-6 a {
+    color: #ffc107 !important;
+}
+
+body.dark-mode .fixed.bottom-6.right-6 a:hover {
+    background-color: rgba(255, 193, 7, 0.1);
+    color: #ffeb3b !important;
+}
+
+/* Additional elements */
+body.dark-mode .border,
+body.dark-mode .border-t,
+body.dark-mode .border-b,
+body.dark-mode .border-l,
+body.dark-mode .border-r {
+    border-color: #333333 !important;
+}
+
+body.dark-mode .divide-y > * {
+    border-color: #333333 !important;
+}
+
+body.dark-mode .bg-gray-100,
+body.dark-mode .bg-gray-200,
+body.dark-mode .bg-gray-300 {
+    background-color: #000000 !important;
+}

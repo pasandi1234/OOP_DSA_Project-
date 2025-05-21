@@ -1,0 +1,150 @@
+/**
+ * Global Dark Mode CSS
+ * This CSS is designed to be included in every JSP file
+ * to ensure dark mode is applied consistently across the entire site
+ */
+
+/* Dark mode base styles */
+html.dark-mode-html,
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #ffc107 !important; /* Yellow text */
+}
+
+/* Header styles */
+body.dark-mode header {
+    background-color: #000000 !important;
+}
+
+body.dark-mode header h1,
+body.dark-mode header p {
+    color: #ffc107 !important; /* Yellow */
+}
+
+/* Navigation styles */
+body.dark-mode nav {
+    background-color: #000000 !important;
+}
+
+body.dark-mode nav a {
+    color: #ffc107 !important; /* Yellow */
+}
+
+body.dark-mode nav a:hover {
+    color: #ffeb3b !important; /* Lighter yellow */
+    text-decoration: underline;
+}
+
+/* Container and card styles */
+body.dark-mode .container .bg-white,
+body.dark-mode .bg-white,
+body.dark-mode .max-w-4xl,
+body.dark-mode .max-w-6xl,
+body.dark-mode .max-w-3xl,
+body.dark-mode .rounded-lg {
+    background-color: #000000 !important;
+    color: #ffc107 !important; /* Yellow text */
+    border: 1px solid #333333 !important;
+}
+
+/* Text colors */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode div,
+body.dark-mode label,
+body.dark-mode .text-gray-700,
+body.dark-mode .text-gray-800,
+body.dark-mode .text-gray-900,
+body.dark-mode .font-bold,
+body.dark-mode .font-medium,
+body.dark-mode .font-semibold {
+    color: #ffc107 !important; /* Yellow text */
+}
+
+/* Form elements */
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+    background-color: #000000 !important;
+    border: 1px solid #ffc107 !important;
+    color: #ffc107 !important;
+}
+
+/* Buttons */
+body.dark-mode button,
+body.dark-mode .btn,
+body.dark-mode a.bg-blue-600,
+body.dark-mode a.bg-green-600,
+body.dark-mode a.bg-red-600,
+body.dark-mode a.bg-yellow-600,
+body.dark-mode a.bg-purple-600,
+body.dark-mode a.bg-gray-600,
+body.dark-mode .bg-blue-600 {
+    background-color: #000000 !important;
+    border: 2px solid #ffc107 !important;
+    color: #ffc107 !important;
+}
+
+/* Table styles */
+body.dark-mode table {
+    color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+
+body.dark-mode table thead {
+    background-color: #000000 !important;
+    border-bottom: 2px solid #ffc107 !important;
+}
+
+body.dark-mode table tbody tr {
+    background-color: #000000 !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+/* Footer styles */
+body.dark-mode footer {
+    background-color: #000000 !important;
+    color: #ffc107 !important; /* Yellow */
+    border-top: 1px solid #333333 !important;
+}
+
+/* Links */
+body.dark-mode a {
+    color: #ffc107 !important; /* Yellow */
+}
+
+/* Dark mode toggle button */
+#darkModeToggle {
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+    z-index: 9999 !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+body.dark-mode #darkModeToggle {
+    background-color: #000000 !important;
+    color: #ffc107 !important;
+    border: 2px solid #ffc107 !important;
+}
+
+/* Background colors */
+body.dark-mode .bg-gray-100,
+body.dark-mode .bg-gray-200,
+body.dark-mode .bg-gray-300 {
+    background-color: #000000 !important;
+}
